@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-  clicked: Object;
+  clicked: any;
 }>();
 </script>
 
