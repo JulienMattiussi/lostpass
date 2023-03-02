@@ -63,12 +63,26 @@ defineProps<{
   align-content: center;
   line-height: 50px;
 }
+
 .text {
   margin: 10px 0;
   height: 30px;
   line-height: 30px;
   width: 70%;
 }
+
+@media (max-width: 600px) {
+  .line {
+    flex-direction: column;
+    align-content: start;
+    text-align: start;
+    line-height: 20px;
+  }
+  .text {
+    width: 100%;
+  }
+}
+
 .text:hover,
 .savebutton:hover {
   filter: drop-shadow(0 0 1em #646cffaa);
