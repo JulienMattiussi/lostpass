@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lostpass.yavadeus.dev/sitemap.xml
